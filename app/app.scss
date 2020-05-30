@@ -1,0 +1,87 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~@nativescript/theme/core';
+@import '~@nativescript/theme/default';
+
+// Override variables here
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+ActionBar {
+    background-color: #53ba82;
+    color: #ffffff;
+}
+
+.message {
+    vertical-align: center;
+    text-align: center;
+    font-size: 40;
+    color: #333333;
+}
+
+
+// .fab {
+//   font-family: 'Font Awesome 5 Brands Regular', 'fa-brands-400';
+//   font-size:60;
+// }
+
+// .far {
+//   font-family: 'Font Awesome 5 Free Regular', 'fa-regular-400';
+//   font-size:60;
+// }
+
+// .fas {
+//   font-family: 'Font Awesome 5 Free Solid', 'fa-solid-900';
+//   font-size:60;
+// }
+
+.fab {
+  font-family: 'fa-brands-400';
+  font-size:60;
+}
+
+.far {
+  font-family: 'fa-regular-400';
+  font-size:60;
+}
+
+.fas {
+  font-family: 'fa-solid-900';
+  font-size:60;
+}
+
+
+// .fa {
+//     font-family: 'FontAwesome', 'fontawesome-webfont';
+// }
+
+.fa {
+    font-family: 'fontawesome-webfont';
+}
+
+.ion {
+    font-family: 'ionicons';
+}
+
+.ico {
+    font-family: 'icomoon';
+}
+
+.mdi {
+    font-family: 'MaterialIcons';
+}
+
+.FB {
+  // ekstensi file .ttf nya tidak boleh .TTF
+  // 'Californian_FB' nama file fonts .ttf dibutuhkan oleh iOS
+  // 'Californian FB' nama fonts (TrueType) dibutuhkan oleh Android
+  font-family: 'Californian_FB','Californian FB';
+}
+
+.CG {
+  // ekstensi file .ttf nya tidak boleh .TTF
+  // 'Century_Gothic' nama file fonts .ttf dibutuhkan oleh iOS
+  // 'Century Gothic' nama fonts (TrueType) dibutuhkan oleh Android
+  font-family: 'Century_Gothic','Century Gothic';
+}
