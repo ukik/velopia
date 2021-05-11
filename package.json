@@ -20,7 +20,7 @@
     "@nstudio/nativescript-checkbox": "^1.0.0",
     "@nstudio/nativescript-floatingactionbutton": "^2.0.0",
     "axios": "^0.19.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nativescript-carousel": "^6.1.1",
     "nativescript-fonticon": "^2.0.0",
     "nativescript-geolocation": "^5.1.0",
